@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoffeeAdapter"
+    android:weightSum="100">
+
+
+        <ImageView
+            android:id="@+id/imgCoffee"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="35"/>
+
+
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30">
+
+        <TextView
+            android:id="@+id/lblCoffee"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Coffee: "
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/lblCups"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="No of Cups: "
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="35">
+
+        <TextView
+            android:id="@+id/lblMilk"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Milk: "
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/lblSugar"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Sugar: "
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CoffesCup</string>
+    <string name="place_order_button">Place your order</string>
+    <string name="cancel_order_button">Cancel order</string>
+    <string name="confirm_order_button">Confirm order</string>
+    <string name="select_timer">Select pick-up time: </string>
+    <string name="archived_order_button">Archived order</string>
+
+
+</resources>
